@@ -1,0 +1,360 @@
+@font-face {
+  font-family: amble;
+  src: url(fonts/amble/Amble-Light.ttf);
+}
+
+li:hover {
+  cursor: default;
+}
+
+nav a:hover {
+  color: #5a1b17;
+}
+
+@keyframes nav {
+    from {color: #5a1b17; background-color: white;}
+    to {color: white; background-color: #5a1b17;}
+}
+html {
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+body {
+ /* background-image: url(images/test.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;*/
+  font-family: amble;
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+  height: auto;
+  overflow-x: hidden !important;
+  background-color: #5a1b17;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.goodstuff p {
+  color: black;
+}
+
+button {
+  font-size: inherit;
+  font-family: inherit;
+  border: 0;
+  padding: 0;
+}
+
+header.navbar-brand, footer p {
+  font-size: 18pt;
+}
+
+.navbar {
+  background-color: white;
+  margin: 0;
+  height: 15vh;
+  font-size: 28pt;
+  display: flex;
+  color: #5a1b17;
+}
+
+.brandstuff {
+  display: flex;
+  flex-direction: column;
+}
+
+.navlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 1.5%;
+  min-height: 5vh;
+  width: 50%;
+
+
+}
+
+.navlist li {
+  width: 100%;
+  text-align: center;
+  transition-duration: 1s;
+  position: flex;
+}
+/*
+.navlist li:hover {
+  background-color: #5a1b17;
+  color: white;
+}*/
+
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 18px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a, .dropdown-content a:hover {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #5a1b17;
+}
+
+.dropbtn a:hover {
+  color: #5a1b17;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  width: 50%;
+  color: inherit;
+  margin-left: 25%;
+}
+
+.dropdown {
+  width: 100%;
+}
+
+.navbar-brand {
+  color: black;
+  min-height: 150px;
+  padding: 0;
+  font-size: 18pt;
+}
+
+.navbar-brand img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a {
+  color: #5a1b17;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a.item {
+  max-height: 100%;
+}
+
+/* Socials Subpage */
+.socials {
+    padding: 5% 0;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    background-color: white;
+    height: auto;
+}
+
+.twitter, .instagram {
+  min-height: 100% !important;
+  width: 100%;
+
+}
+
+.yourMom {
+  background-color: #5a1b17;
+}
+
+/* Resources Subpage */
+
+.resourcelist {
+  font-size: 18pt;
+  line-height: 200%;
+}
+
+.border {
+  border-top: #5a1b17 1px solid;
+}
+
+/* Robots */
+
+.robot {
+    background-color: #5a1b17;
+}
+
+.robot2019 {
+  background-image: url(images/robot2019again.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  position: relative;
+}
+
+.rtext {
+  padding: 5%;
+  color: white;
+}
+/* CODE BELOW IS FOR MAIN PAGE */
+
+.parallax1 {
+  background-image: url(images/resized/homepage.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 75vh;
+  position: relative;
+}
+
+.parallax2 {
+  background-image: url(images/resized/thinkin.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 75vh;
+  position: relative;
+}
+
+.parallax3 {
+  background-image: url(images/resized/yes.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 75vh;
+  position: relative;
+}
+
+.parallax4 {
+  background-image: url(images/resized/DSC_0058.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 75vh;
+  position: relative;
+}
+
+.goodstuff {
+  min-height: 100%;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  color: black;
+}
+
+.goodstuff img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  background-color: white;
+}
+
+.one, .two, .three {
+  background-color: white;
+  padding: 4% 2%;
+  font-size: 18pt;
+}
+
+.one h1, .two h1, .three h1{
+  font-size: 34pt;
+}
+
+/* Login Page */
+
+.login.popup {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+footer {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100vh;
+}
+
+footer p {
+  padding: 10px;
+  margin: 0 0 0 0;
+  color: white;
+}
+
+/* CODE BELOW IS FOR FIRST SUBPAGE */
+
+.content {
+  padding: 7% 5%;
+}
+
+footer {
+  width: 100%;
+  position: relative;
+}
+
+/* CODE BELOW IS FOR MOBILE */
+
+@media only screen and (max-width: 1242px) {
+
+  .logo {
+    width: 100%;
+  }
+
+  .menu {
+    float: left;
+  }
+
+  .parallax1, .parallax2, .parallax3, .parallax4 {
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .one, .two, .three {
+    margin-top: 0;
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+  footer {
+    width: 100%;
+  }
+}
