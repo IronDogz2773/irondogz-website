@@ -26,10 +26,6 @@ html {
 }
 
 body {
- /* background-image: url(images/test.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;*/
   font-family: amble;
   margin: 0;
   position: relative;
@@ -38,6 +34,7 @@ body {
   overflow-x: hidden !important;
   background-color: #5a1b17;
   color: white;
+  cursor: url(images/diamondsword.cur), default;
 }
 
 p {
@@ -114,7 +111,7 @@ header.navbar-brand, footer p {
 
 /* Links inside the dropdown */
 .dropdown-content a, .dropdown-content a:hover {
-  padding: 12px 16px;
+  padding: 16px 12px;
   text-decoration: none;
   display: block;
   color: #5a1b17;
@@ -131,9 +128,11 @@ header.navbar-brand, footer p {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-  width: 50%;
   color: inherit;
-  margin-left: 25%;
+}
+
+.dropdown-content {
+  width: 100%;
 }
 
 .dropdown {
@@ -328,10 +327,50 @@ footer {
   position: relative;
 }
 
+/* Login page styles */
+.form {
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+
+form {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.form {
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+
+form {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
 /* CODE BELOW IS FOR MOBILE */
 
-@media only screen and (max-width: 1242px) {
+@media only screen and (max-width: 1024px) {
 
+  .visible {
+    display: block;
+    width: auto;
+    color: inherit;
+  }
+
+  header.navbar-brand, footer p {
+    font-size: 18pt;
+  }
+  .navbar {
+    background-color: white;
+    margin: 0;
+    height: auto;
+    font-size: 24pt;
+    display: flex;
+    color: #5a1b17;
+  }
   .logo {
     width: 100%;
   }
@@ -356,5 +395,117 @@ footer {
   }
   footer {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  header.navbar-brand, footer p {
+    font-size: 14pt;
+  }
+
+  .navbar {
+    background-color: white;
+    margin: 0;
+    height: auto;
+    font-size: 28pt;
+    display: flex;
+    color: #5a1b17;
+    flex-direction: column;
+
+  }
+
+  .brandstuff {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navlist {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-grow: 1;
+    padding: 0;
+    list-style: none;
+    min-height: 5vh;
+    width: 100%;
+    flex-direction: column;
+
+
+  }
+
+  .navlist li {
+    width: 100%;
+    padding: 2%;
+    text-align: left;
+    position: flex;
+  }
+  /*
+  .navlist li:hover {
+    background-color: #5a1b17;
+    color: white;
+  }*/
+
+
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 18px;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a, .dropdown-content a:hover {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #5a1b17;
+  }
+
+  .dropbtn a:hover {
+    color: #5a1b17;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    width: auto;
+    color: inherit;
+    flex-direction: column;
+  }
+
+  .dropdown {
+    width: 100%;
+  }
+
+  .navbar-brand {
+    color: black;
+    min-height: 25px;
+    width: 100%;
+    padding: 0;
+    font-size: 18pt;
+  }
+
+  .navbar-brand img {
+    display: inline-block;
+    max-width: 25%;
+    max-height: 25%;
+  }
+  .visible {
+    display: flex;
+    width: auto;
+    color: inherit;
+    flex-direction: column;
+  }
+  .hidden {
+    display: none;
   }
 }
