@@ -189,8 +189,16 @@ a.item {
 /* Resources Subpage */
 
 .resourcelist {
-  font-size: 18pt;
+  font-size: 24pt;
   line-height: 200%;
+}
+
+.resourcelist a {
+  color: white;
+}
+
+.resourcelist a:hover {
+  color: black;
 }
 
 .border {
@@ -209,12 +217,12 @@ a.item {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 80vh;
+  min-height: 73vh;
   position: relative;
 }
 
 .rtext {
-  padding: 5%;
+  padding: 1%;
   color: white;
 }
 /* CODE BELOW IS FOR MAIN PAGE */
@@ -328,37 +336,23 @@ footer {
 }
 
 /* Login page styles */
-.form {
-  text-align: center;
-  display: table;
-  width: 100%;
+
+.login {
+  border: none;
+  background-color: lightgray;
 }
 
-form {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-.form {
-  text-align: center;
-  display: table;
-  width: 100%;
-}
-
-form {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
-embed {
+iframe {
     height: 100vh;
-    width: 100%;
+    width: 75%;
+    padding: 0 8% 8% 8%;
+    border: none;
 }
 
-.pdf {
-  padding: 5%;
+.sponsorheading {
+  padding: 2% 0 2% 8%;
 }
+
 /* CODE BELOW IS FOR MOBILE */
 
 @media only screen and (max-width: 1024px) {
