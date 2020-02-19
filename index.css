@@ -23,6 +23,7 @@ html {
   height: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
+  color: white;
 }
 
 body {
@@ -168,11 +169,10 @@ a.item {
 
 /* Socials Subpage */
 .socials {
-    padding: 5% 0;
+    padding: 5%;
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    background-color: white;
     height: auto;
 }
 
