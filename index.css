@@ -169,7 +169,7 @@ a.item {
 
 /* Socials Subpage */
 .socials {
-    padding: 5%;
+    padding: 1% 5% 5% 5%;
     display: flex;
     flex-direction: row;
     align-items: stretch;
@@ -186,6 +186,36 @@ a.item {
   background-color: #5a1b17;
 }
 
+.smtitle {
+  padding-top: 1%;
+  padding-left: 5%;
+}
+
+/* icon list for footers bruh, move to footer css when done */
+.icons {
+  display: inline-block;
+  list-style: none;
+  width: auto;
+  margin: 0;
+  height: 100%;
+}
+
+.iconli {
+  display: inline;
+  height: 100%;
+
+}
+
+.icon {
+  width: 5%;
+  display: inline;
+}
+
+.iconli a {
+  color: white;
+  height: 100%;
+}
+/* ends here */
 /* Resources Subpage */
 
 .resourcelist {
@@ -322,6 +352,7 @@ footer p {
   padding: 10px;
   margin: 0 0 0 0;
   color: white;
+  display: inline-block;
 }
 
 /* CODE BELOW IS FOR FIRST SUBPAGE */
