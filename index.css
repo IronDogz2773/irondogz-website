@@ -330,31 +330,6 @@ a.item {
   font-size: 34pt;
 }
 
-/* Login Page */
-
-.login.popup {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-footer {
-  background-color: black;
-  color: white;
-  position: absolute;
-  bottom: 0;
-  width: 100vh;
-}
-
-footer p {
-  padding: 10px;
-  margin: 0 0 0 0;
-  color: white;
-  display: inline-block;
-}
-
 /* CODE BELOW IS FOR FIRST SUBPAGE */
 
 .content {
@@ -364,24 +339,6 @@ footer p {
 footer {
   width: 100%;
   position: relative;
-}
-
-/* Login page styles */
-
-.login {
-  border: none;
-  background-color: lightgray;
-}
-
-iframe {
-    height: 100vh;
-    width: 75%;
-    padding: 0 8% 8% 8%;
-    border: none;
-}
-
-.sponsorheading {
-  padding: 2% 0 2% 8%;
 }
 
 /* CODE BELOW IS FOR MOBILE */
