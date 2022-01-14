@@ -35,7 +35,7 @@ body {
   overflow-x: hidden !important;
   background-color: #5a1b17;
   color: white;
-  cursor: url(images/diamondsword.cur), default;
+  cursor: default;
 }
 
 p {
