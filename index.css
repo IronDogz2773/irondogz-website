@@ -258,7 +258,6 @@ a.item {
 /* CODE BELOW IS FOR MAIN PAGE */
 
 .parallax1 {
-  background-image: url(images/resized/homepage.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
