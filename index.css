@@ -499,3 +499,10 @@ footer {
   .hidden {
     display: none;
   }
+  
+  iframe { 
+    height: 720px; 
+    width: 720px; 
+    resize: both; 
+    overflow: auto; 
+  }
