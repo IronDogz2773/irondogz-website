@@ -250,17 +250,17 @@ a.item {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 90vh;
+  min-height: 100vh;
   position: relative;
 }
 
 .robot2020 {
   background-image: url(images/robot2020.jpg);
-  background-size: cover;
+  background-size: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 90vh;
+  min-height: 100vh;
   position: relative;
 }
 
