@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+  <title>IronDogz</title>
+  <link type="text/css" rel="stylesheet" href="../index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="jquery-3.4.1.min.js"></script>
+  <script src="../js/jquery.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0XKZKS4KK3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0XKZKS4KK3');
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-static-top">
+      <div class= "brandstuff">
+        <a class="navbar-brand item logo" href="../index.html">
+          <img src=../images/irondogzlogo.png alt="logo">
+        </a>
+      </div>
+      <ul class="navlist">
+      <div class= "dropdown">
+        <li class="dropbtn">
+          Our Team
+        </li>
+        <div class="dropdown-content">
+          <a href="resources.html">Resources</a>
+          <a href="mentors.html">Mentors</a>
+          <a href="social.html">Socials & Contact</a>
+        </div>
+      </div>
+        <li><a href="https://www.firstinspires.org/robotics/frc">FIRST</a></li>
+        <div class= "dropdown">
+          <li class="dropbtn">
+            <a href="/one">
+              Sponsors
+            </a>
+          </li>
+          <div class="dropdown-content">
+            <a href="sponsorlist.html">Become A Sponsor</a>
+            <a href="sponsors.html">Sponsor Info Packet</a>
+            <a href="/three">Donate</a>
+            <a href="donorlist.html">Donors</a>
+          </div>
+        </div>
+        <li><a href="robots.html">Robots</a></li>
+      </ul>
+    </nav>
+  </header>
+    <h1 class="sponsorheading">Sponsorship Information Packet</h1>
+    <!-- <embed class="container" src="../images/sponsorshipinfo.pdf" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html"> -->
+    <iframe src="https://docs.google.com/document/d/e/2PACX-1vRQY0uZ2gSF15wxKMJCLrBbUqQFjwElto8Aa7qK2O0pJyqo1GS0a5GTX9tMkZ_tppm3rfiOjLQh9wZM/pub?embedded=true" width="100%" height="1000"></iframe>
+  <footer>
+    <p>&copy; 2021 FIRST Team 2773</p>
+  </footer>
+</body>
