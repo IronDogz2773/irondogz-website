@@ -121,6 +121,7 @@ header.navbar-brand, footer p {
 .dropbtn a:hover {
   color: #5a1b17;
 }
+
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
@@ -243,13 +244,13 @@ a.item {
     background-color: #5a1b17;
 }
 
-.robot2019 {
+.robot2019 { 
   background-image: url(images/robot2019again.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 73vh;
+  min-height: 90vh;
   position: relative;
 }
 
@@ -259,7 +260,7 @@ a.item {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 73vh;
+  min-height: 90vh;
   position: relative;
 }
 
