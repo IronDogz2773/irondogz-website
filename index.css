@@ -251,6 +251,16 @@ a.item {
   position: relative;
 }
 
+.robot2020 {
+  background-image: url(images/robot2020.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 73vh;
+  position: relative;
+}
+
 .rtext {
   padding: 1%;
   color: white;
@@ -499,10 +509,5 @@ footer {
   .hidden {
     display: none;
   }
-  
-  iframe { 
-    height: 720px; 
-    width: 720px; 
-    resize: both; 
-    overflow: auto; 
-  }
+}
+
