@@ -134,7 +134,7 @@ header.navbar-brand, footer p {
 }
 
 .dropdown-content {
-  width: 100%;
+  width: 15%;
 }
 
 .dropdown {
@@ -262,11 +262,6 @@ a.item {
   background-repeat: no-repeat;
   min-height: 100vh;
   position: relative;
-}
-
-.iframepadding {
-  padding-left: 17.5%;
-  padding-right: 15%;
 }
 
 .rtext {
@@ -518,4 +513,3 @@ footer {
     display: none;
   }
 }
-
