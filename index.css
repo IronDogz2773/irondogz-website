@@ -264,6 +264,11 @@ a.item {
   position: relative;
 }
 
+.iframepadding {
+  padding-left: 17.5%;
+  padding-right: 15%;
+}
+
 .rtext {
   padding: 1%;
   color: white;
