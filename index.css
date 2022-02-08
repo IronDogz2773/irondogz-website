@@ -343,6 +343,40 @@ a.item {
   font-size: 34pt;
 }
 
+/*
+Styling for donorlist.html
+*/
+
+.gold h1 {
+  color: rgb(94, 255, 0);
+  font-weight: bolder;
+}
+
+.silver h1 {
+  color: gray;
+  font-weight: bolder;
+}
+
+.bronze h1 {
+  color: #964B00;
+  font-weight: bolder;
+}
+
+.goldimg {
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.silverimg {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.bronzeimg {
+  max-height: 150px;
+  max-width: 150px;
+}
+
 /* CODE BELOW IS FOR FIRST SUBPAGE */
 
 .content {
