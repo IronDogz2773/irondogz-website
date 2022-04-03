@@ -169,7 +169,7 @@ var config_data = `
         "defaultValue":"x"
       },
        "Offense Rating": {
-        "code":"dr",
+        "code":"or",
         "title": "Offense Rating",
         "type":"radio",
         "choices":{
@@ -203,7 +203,7 @@ var config_data = `
         "maxSize":50
       },
       "Match Performance": {
-        "code":"cnf",
+        "code":"mp",
         "title": "Performance Rating",
         "type":"radio",
         "choices":{
