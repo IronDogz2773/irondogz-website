@@ -179,7 +179,7 @@ a.item {
     height: auto;
 }
 
-.twitter, .instagram {
+.twitter, .instagram, .facebook {
   min-height: 100% !important;
   width: 100%;
 
